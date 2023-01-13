@@ -1,0 +1,32 @@
+<parameters>  <algorithm name="snesim_std" /> 
+  <Cmin  value="1" /> 
+  <Constraint_Marginal_ADVANCED  value="0" /> 
+  <resimulation_criterion  value="-1" /> 
+  <resimulation_iteration_nb  value="1" /> 
+  <Nb_Multigrids_ADVANCED  value="3" /> 
+  <Debug_Level  value="0" /> 
+  <Subgrid_choice  value="0"  /> 
+  <expand_isotropic  value="1"  /> 
+  <expand_anisotropic  value="0"  /> 
+  <aniso_factor  value="
+
+" /> 
+  <Use_Affinity  value="0"  /> 
+  <Use_Rotation  value="0"  /> 
+  <Hard_Data  grid="SPCOV_800" region="" property="SAS"  /> 
+  <use_pre_simulated_gridded_data  value="0"  /> 
+  <Use_ProbField  value="0"  /> 
+  <ProbField_properties count="0"   value=""  /> 
+  <TauModelObject  value="1 1" /> 
+  <use_vertical_proportion  value="0"  /> 
+  <GridSelector_Sim value="StudyArea" region=""  /> 
+  <Property_Name_Sim  value="try" /> 
+  <Nb_Realizations  value="300" /> 
+  <Seed  value="211175" /> 
+  <PropertySelector_Training  grid="TI" region="" property="SAS"  /> 
+  <Nb_Facies  value="2" /> 
+  <Marginal_Cdf  value="0.85 0.15" /> 
+  <Max_Cond  value="80" /> 
+  <Search_Ellipsoid  value="5000 5000 1
+0 0 0" />
+</parameters> 
